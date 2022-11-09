@@ -39,6 +39,7 @@ class ServerEndPoint {
         }
 
         val heartRate = extractHeatRate(message) ?: return
+        println("心拍数: $heartRate")
         val oscMessage = OSCMessage(address, mutableListOf((heartRate / 255.0f).coerceAtMost(1.0f)))
         sender.send(oscMessage)
     }
