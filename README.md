@@ -1,0 +1,2 @@
+# HeartRateTest
+PixelWatchを使って心拍数をVRChatへ持っていく
