@@ -1,4 +1,4 @@
-package bet.hennabatch.heartrate.endpoint
+package net.hennabatch.heartrate.endpoint
 
 import com.illposed.osc.OSCMessage
 import com.illposed.osc.transport.OSCPortOut

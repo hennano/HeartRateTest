@@ -1,4 +1,4 @@
-import bet.hennabatch.heartrate.endpoint.ServerEndPoint
+import net.hennabatch.heartrate.endpoint.ServerEndPoint
 import org.glassfish.tyrus.server.Server
 import java.lang.Thread.sleep
 
